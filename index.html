@@ -4,11 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Aspect Ratio Calculator</title>
 </head>
 
 <body>
+    <div class="container">
+        <div class="ratio-inputs">
+            <h4>Ratio</h4>
+            <input type="text" class="ratio-width" value="16" placeholder="width">
+            <p>x</p>
+            <input type="text" class="ratio-height" value="9" placeholder="height">
+        </div>
+        <div class="pixel-inputs">
+            <h4>Pixel</h4>
+            <input type="text" class="pixel-width" value="1920" placeholder="width">
+            <p>x</p>
+            <input type="text" class="pixel-height" value="1080" placeholder="height">
+        </div>
+        <button class="calc-btn">calculate</button>
+    </div>
     <script src="assets/js/main.js"></script>
 </body>
 
